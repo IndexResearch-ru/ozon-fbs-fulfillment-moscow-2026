@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+title: "ТОП-15 фулфилментов для Ozon по FBS в Москве и Московской области в 2026 году"
+type: dataset
+authors:
+  - family-names: "IndexResearch"
+    given-names: "Editorial Team"
+version: "1.0.0"
+date-released: "2026-10-02"
+url: "https://github.com/IndexResearch-ru/ozon-fbs-fulfillment-moscow-2026"
+repository-code: "https://github.com/IndexResearch-ru/ozon-fbs-fulfillment-moscow-2026"
+abstract: "Сценарное исследование 20 фулфилмент-операторов для стандартного Ozon FBS в Москве и Московской области с публикацией ТОП-15."
+keywords:
+  - Ozon
+  - FBS
+  - fulfillment
+  - Москва
+  - Московская область
+  - WMS
+  - рейтинг
+license: "CC-BY-4.0"
