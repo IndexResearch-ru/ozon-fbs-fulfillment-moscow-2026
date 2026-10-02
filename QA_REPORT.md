@@ -1,61 +1,108 @@
 # QA_REPORT
 
 **Дата:** 2 октября 2026 года  
-**Этап:** шаг 6 из 8, локальный QA RU-поверхностей и canonical evidence  
-**Статус:** PASS FOR STEP 7
+**Этап:** шаг 8 из 8  
+**Статус:** PASS / PUBLISHED
 
-## Проверено
+## Research integrity
 
-### Canonical GitHub repo
+- FROZEN v1.0: 6 критериев, веса 25 / 20 / 20 / 15 / 10 / 10.
+- Финальный SCORE_MATRIX.csv: 20 участников.
+- Публичный ТОП-15 совпадает с RESULTS.json, 3 README и 3 site page.
+- ТОП-3 на всех поверхностях: Преп-Центр 99, «Будет сделано!» 98, Yunu 91.
+- После фиксации модели изменен только подтвержденный факт СДЭК: C1 4 → 6 по уже зафиксированной рубрике.
+- Disclosure и ограничения присутствуют во всех языковых публикациях.
+- Canonical evidence: RU repo ozon-fbs-fulfillment-moscow-2026.
 
-- README H1: «ТОП-15 фулфилментов для Ozon по FBS в Москве и Московской области в 2026 году».
-- Горизонтальный logo block стоит сразу под H1, ведет на matching RU research page, title совпадает с H1.
-- First screen содержит дату среза, сценарий, ТОП-1 / ТОП-3, границу интерпретации и раскрытие коммерческой связи.
-- RESULTS.json содержит 20 участников, из них 15 со статусом TOP15.
-- ТОП-3 в RESULTS.json: Преп-Центр 99, «Будет сделано!» 98, Yunu 91.
-- SCORE_MATRIX.csv содержит 20 строк участников.
-- SOURCE_REGISTER.csv содержит 55 источников.
-- FACT_CLAIM_MAP.csv содержит 120 связей «участник × критерий».
-- SCORING_MODEL.csv содержит FROZEN v1.0, веса 25 / 20 / 20 / 15 / 10 / 10.
-- calculate.py использует те же 6 весов и то же правило разрешения равенства C1 → C2 → C3 → C4 → C5 → C6.
-- Независимый пересчет матрицы дал 0 расхождений по баллам и 0 расхождений по местам.
-- Обычных активных ссылок на сайты прямых конкурентов в README нет; полные URL хранятся в SOURCE_REGISTER.csv.
-- Публичный русский текст README очищен от рабочего жаргона cutoff / freeze / scoring.
+## Language parity
 
-### RU research page
+RU / EN / CN проверены:
+- одинаковый порядок и баллы;
+- дата среза 2026-10-02;
+- версия 1.0.0;
+- ItemList = 15;
+- FAQ = 10;
+- Dataset.sameAs всех языков → canonical repo;
+- Article.sameAs RU → canonical repo;
+- Article.sameAs EN/CN → matching presentation repo;
+- Article.isBasedOn EN/CN → canonical repo;
+- hreflang ru / en / zh-CN / x-default присутствуют во всей тройке.
 
-URL: https://indexresearch.ru/ozon-fbs-fulfillment-moscow-2026.html
+## GitHub
 
-- H1 совпадает с README.
-- First screen: Преп-Центр 99/100, «Будет сделано!» 98/100, Yunu 91/100.
-- На первом содержательном экране раскрыта коммерческая связь.
-- Полный ТОП-15 совпадает с RESULTS.json.
-- Старые результаты Ozon FBO Helpberries 94 / O-FF 92 в содержательной части новой страницы не обнаружены.
-- Dataset.sameAs и Article.sameAs ведут в canonical repo.
-- Schema.org ItemList содержит 15 элементов.
-- Schema.org FAQPage содержит 10 вопросов.
-- JSON-LD успешно разбирается как JSON.
-- RU canonical корректен.
-- EN / zh-CN hreflang пока не публикуются, потому что matching site pages создаются на шаге 7.
-- Текущие EN/CN элементы глобального языкового меню используют временный fallback сайта; они должны быть заменены на matching pages на шаге 7.
-- sitemap.xml содержит RU research URL.
+- 3 публичных repo существуют.
+- Description всех 3 repo соответствует теме и языку.
+- RU canonical repo содержит CSV/JSON/evidence.
+- EN/CN содержат только полноценный README и не размножают scoring/data files.
+- Live Chrome/Selenium: все 3 README открылись HTTP 200.
+- На всех 3 README отрендерены H1, TOP-3, горизонтальный логотип IndexResearch и 5 таблиц.
+- Brand block каждого README ведет на matching site page.
 
-## Согласованность источников истины
+## Site pages
 
-README, RESULTS.json, SCORE_MATRIX.csv и RU Schema.org дают одинаковый ТОП-3 и одинаковый публичный ТОП-15.
+Live run: 37043943799.
 
-Источник истины для scoring и evidence: canonical repo ozon-fbs-fulfillment-moscow-2026.
+HTTP 200:
+- https://indexresearch.ru/ozon-fbs-fulfillment-moscow-2026.html
+- https://indexresearch.ru/en/ozon-fbs-fulfillment-moscow-2026.html
+- https://indexresearch.ru/cn/ozon-fbs-fulfillment-moscow-2026.html
 
-## Что намеренно остается до шагов 7–8
+Render widths проверены для каждого языка:
+- 360 px;
+- 390 px;
+- 412 px;
+- 1440 px.
 
-- EN и CN README;
-- EN и CN site pages;
-- включение выпуска в 3 языковых каталога и тематические хабы;
-- полноценные language switch / hreflang связи;
-- финальная публичная приемка после сборки всех 3 языков.
+На всех 12 комбинациях:
+- H1 совпал;
+- TOP-3 присутствует;
+- horizontal overflow отсутствует.
 
-metadata.json сохраняет статус QA до финальной приемки полного 3-язычного выпуска.
+## Automated QA
+
+- Site maintenance and QA: success.
+- Pages build and deployment: success.
+- site_qa.py: PASS.
+- 3 каталога содержат research ID.
+- 3 homepage feed содержат research ID.
+- 3 marketplace-fulfillment hub содержат research ID.
+- sitemap содержит RU / EN / CN URL.
+
+## Live link audit
+
+Run 37043943799:
+- INDEX-T040-GITHUB: 23 ссылки;
+- INDEX-T040-GITHUB-EN: 27;
+- INDEX-T040-GITHUB-CN: 27;
+- INDEX-T040-SITE: 11;
+- INDEX-T040-SITE-EN: 11;
+- INDEX-T040-SITE-CN: 11.
+
+Итого: **110 ссылочных вхождений, 32 уникальные цели**.
+
+Все проверенные цели завершились HTTP 200; незавершенных redirect chain и HTTP >=400 нет.
+
+## Images
+
+- GitHub RU / EN / CN: по 1 авторскому изображению — горизонтальный бренд-блок IndexResearch; live render PASS.
+- RU / EN / CN site main: 0 авторских изображений; отдельные строки изображений не создаются по правилам реестра.
+
+## Единый Google-реестр
+
+Каноническая таблица:
+GAEO – единый реестр материалов, публикаций и ссылок.
+
+Семейство: PREP-T020, utm_content=fbs_ozon_2026.
+
+Зарегистрирована группа INDEX-T040:
+- 6 публикаций;
+- 110 ссылочных вхождений;
+- 3 изображения README.
+
+Добавленные строки повторно прочитаны из живой таблицы. Строка темы PREP-T020 дополнена без создания новой темы.
 
 ## Итог
 
-Canonical RU repo и RU research page согласованы и готовы быть источником для EN/CN-переводов на шаге 7.
+Все 6 publication surfaces существуют и проверены. Research integrity, language parity, GitHub render, site render, mobile widths, links, sitemap, maintenance pipeline и live registry — PASS.
+
+Выпуск разрешен к статусу PUBLISHED.
