@@ -1,0 +1,332 @@
+{
+  "researchId": "ozon-fbs-fulfillment-moscow-2026",
+  "title": "ТОП-15 фулфилментов для Ozon по FBS в Москве и Московской области в 2026 году",
+  "cutoffDate": "2026-10-02",
+  "version": "1.0.0",
+  "methodologyStatus": "FROZEN",
+  "methodologyFrozenAt": "2026-10-02T15:22:57+03:00",
+  "constructValidityReview": "PASS",
+  "strategicFitReview": "PASS",
+  "publicationDecision": "PUBLISH",
+  "candidateCount": 20,
+  "publishedTopCount": 15,
+  "criteriaCount": 6,
+  "weights": {
+    "C1": 25,
+    "C2": 20,
+    "C3": 20,
+    "C4": 15,
+    "C5": 10,
+    "C6": 10
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "participant": "Преп-Центр",
+      "score": 99,
+      "raw": {
+        "C1": 10,
+        "C2": 10,
+        "C3": 10,
+        "C4": 10,
+        "C5": 10,
+        "C6": 9
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 2,
+      "participant": "Будет сделано!",
+      "score": 98,
+      "raw": {
+        "C1": 10,
+        "C2": 10,
+        "C3": 10,
+        "C4": 10,
+        "C5": 10,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 3,
+      "participant": "Yunu",
+      "score": 91,
+      "raw": {
+        "C1": 10,
+        "C2": 8,
+        "C3": 10,
+        "C4": 8,
+        "C5": 10,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 4,
+      "participant": "fulfil.pro",
+      "score": 91,
+      "raw": {
+        "C1": 8,
+        "C2": 8,
+        "C3": 10,
+        "C4": 10,
+        "C5": 10,
+        "C6": 10
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 5,
+      "participant": "LOGIDEX",
+      "score": 90,
+      "raw": {
+        "C1": 10,
+        "C2": 10,
+        "C3": 6,
+        "C4": 10,
+        "C5": 10,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 6,
+      "participant": "Fulllog",
+      "score": 86,
+      "raw": {
+        "C1": 8,
+        "C2": 8,
+        "C3": 10,
+        "C4": 8,
+        "C5": 10,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 7,
+      "participant": "O-FF",
+      "score": 85,
+      "raw": {
+        "C1": 10,
+        "C2": 6,
+        "C3": 10,
+        "C4": 8,
+        "C5": 8,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 8,
+      "participant": "Бета ПРО",
+      "score": 80,
+      "raw": {
+        "C1": 8,
+        "C2": 8,
+        "C3": 10,
+        "C4": 8,
+        "C5": 2,
+        "C6": 10
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 9,
+      "participant": "Fulfilment-E",
+      "score": 79,
+      "raw": {
+        "C1": 8,
+        "C2": 8,
+        "C3": 8,
+        "C4": 6,
+        "C5": 8,
+        "C6": 10
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 10,
+      "participant": "FullSklad",
+      "score": 79,
+      "raw": {
+        "C1": 6,
+        "C2": 10,
+        "C3": 10,
+        "C4": 8,
+        "C5": 4,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 11,
+      "participant": "Helpberries",
+      "score": 76,
+      "raw": {
+        "C1": 6,
+        "C2": 8,
+        "C3": 8,
+        "C4": 10,
+        "C5": 8,
+        "C6": 6
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 12,
+      "participant": "FulSystem",
+      "score": 75,
+      "raw": {
+        "C1": 8,
+        "C2": 6,
+        "C3": 10,
+        "C4": 6,
+        "C5": 8,
+        "C6": 6
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 13,
+      "participant": "СДЭК Фулфилмент",
+      "score": 72,
+      "raw": {
+        "C1": 6,
+        "C2": 8,
+        "C3": 8,
+        "C4": 6,
+        "C5": 8,
+        "C6": 8
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 14,
+      "participant": "TSLOG",
+      "score": 70,
+      "raw": {
+        "C1": 4,
+        "C2": 8,
+        "C3": 10,
+        "C4": 8,
+        "C5": 6,
+        "C6": 6
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 15,
+      "participant": "FullBox",
+      "score": 68,
+      "raw": {
+        "C1": 4,
+        "C2": 6,
+        "C3": 10,
+        "C4": 8,
+        "C5": 8,
+        "C6": 6
+      },
+      "publicationStatus": "TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 16,
+      "participant": "Full-Fix",
+      "score": 65,
+      "raw": {
+        "C1": 4,
+        "C2": 8,
+        "C3": 6,
+        "C4": 10,
+        "C5": 2,
+        "C6": 10
+      },
+      "publicationStatus": "OUTSIDE_TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 17,
+      "participant": "LRpack",
+      "score": 62,
+      "raw": {
+        "C1": 4,
+        "C2": 8,
+        "C3": 6,
+        "C4": 8,
+        "C5": 2,
+        "C6": 10
+      },
+      "publicationStatus": "OUTSIDE_TOP15",
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 18,
+      "participant": "FULLIK",
+      "score": 59,
+      "raw": {
+        "C1": 4,
+        "C2": 6,
+        "C3": 6,
+        "C4": 10,
+        "C5": 2,
+        "C6": 8
+      },
+      "publicationStatus": "OUTSIDE_TOP15",
+      "confidence": "MEDIUM"
+    },
+    {
+      "rank": 19,
+      "participant": "UPMARKET",
+      "score": 57,
+      "raw": {
+        "C1": 4,
+        "C2": 4,
+        "C3": 8,
+        "C4": 6,
+        "C5": 8,
+        "C6": 6
+      },
+      "publicationStatus": "OUTSIDE_TOP15",
+      "confidence": "MEDIUM"
+    },
+    {
+      "rank": 20,
+      "participant": "DilijansFF",
+      "score": 53,
+      "raw": {
+        "C1": 4,
+        "C2": 4,
+        "C3": 6,
+        "C4": 6,
+        "C5": 8,
+        "C6": 6
+      },
+      "publicationStatus": "OUTSIDE_TOP15",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "sensitivity": {
+    "runs": 5000,
+    "seed": 20261002,
+    "weightVariation": "independent uniform ±20%, renormalized to 100",
+    "leaderFirstPlaceCount": 5000,
+    "leaderFirstPlaceShare": 1,
+    "note": "Проверка устойчивости выполнена на полной калибровочной матрице до финального доказательного прохода. После freeze СДЭК Фулфилмент получил C1=6 вместо 4 по свежему официальному подтверждению ежедневного FBS; лидер и верх рейтинга не изменились."
+  }
+}
