@@ -2,7 +2,7 @@
   "title": "ТОП-15 фулфилментов для Ozon по FBS в Москве и Московской области в 2026 году",
   "publisher": "IndexResearch",
   "version": "1.0.0",
-  "status": "QA",
+  "status": "PUBLISHED",
   "releaseDate": "2026-10-02",
   "время отсеченияDate": "2026-10-02",
   "surface": "REPOSITORY_RESEARCH",
@@ -14,5 +14,9 @@
   "conflictReviewer": "Мария Яковлева",
   "methodologyFrozenAt": "2026-10-02T15:22:57+03:00",
   "designReviewStatus": "PASS",
-  "publicationDecision": "PUBLISH"
+  "publicationDecision": "PUBLISH",
+  "liveQaStatus": "PASS",
+  "liveQaRun": "37043943799",
+  "registryStatus": "RECORDED",
+  "registryPublicationGroup": "INDEX-T040"
 }
